@@ -38,7 +38,7 @@ For those unfamiliar with python3 and would just like to use the script do the f
         mkdir Monitor_Timer
         cd Monitor_Timer
         git clone https://github.com/JJGaston/Magic_Mirror_Monitor_Timer.git
-    Edit the following file with a 1, 2 or 3 as stated above to use the relevant loops:
+        Open the settings file and add your settings:
         >sudo nano ~/Monitor_Timer/settings.py
         In the settings file add the following settings (#indicates a comment!):
             On_Time = 0 - 2399 #time in the format of 00:00 without leading zeros, e.g. 7:30 am is 730 and 3:13 pm is 1513
