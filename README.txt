@@ -1,4 +1,9 @@
 #README.txt
+**********
+Timer for your Raspberry Pi monitors. It will turn the monitor on and off using time, or using an ip address (such as your phone).
+It will both turn off the HDMI port and the monitor power, if you use a Tapo wall plug with the monitor.
+**********
+
 Module was debugged with icecream -> (https://github.com/gruns/icecream)
 This code is designed to function with a Raspberry Pi 5 using Rasbian OS.
 I have tested it with a Raspberry pi B+ and it also works.
