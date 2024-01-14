@@ -73,5 +73,5 @@ To do this do the following:
 Now you can test the program with it setup:
         test the program runs and get some ouput by typing:
                 $python3 start.py
-                $You should see some ouput. if you configured the settings.py properly. Using any value for ip_address_list will suffice for testing.
+                $You should see some ouput. if you configured the settings.py properly.
         sudo reboot and the timer should start automatically.
