@@ -37,7 +37,7 @@ For those unfamiliar with python3 and would just like to use the script do the f
     To download:
         mkdir Monitor_Timer
         cd Monitor_Timer
-        git clone https://github.com/JJGaston/Magic_Mirror_Monitor_Timer.git
+        git clone https://github.com/SuperSneakyPython/Magic_Mirror_Monitor_Timer.git
         Open the settings file and add your settings:
         >nano ~/Monitor_Timer/settings.py
         In the settings file add the following settings (#indicates a comment!):
