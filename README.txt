@@ -37,7 +37,7 @@ For those unfamiliar with python3 and would just like to use the script do the f
     To download:
         mkdir Monitor_Timer
         cd Monitor_Timer
-        git clone XXXX
+        git clone https://github.com/JJGaston/Monitor_Timer.git
     Edit the following file with a 1, 2 or 3 as stated above to use the relevant loops:
         >sudo nano ~/Monitor_Timer/settings.py
         In the settings file add the following settings (#indicates a comment!):
