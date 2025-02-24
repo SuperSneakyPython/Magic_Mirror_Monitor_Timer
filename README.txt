@@ -4,8 +4,7 @@ Timer for your Raspberry Pi monitors. It will turn the monitor on and off using 
 It will both turn off the HDMI port and the monitor power, if you use a Tapo wall plug with the monitor.
 **********
 
-Module was debugged with icecream -> (https://github.com/gruns/icecream)
-This code is designed to function with a Raspberry Pi 5 using Rasbian OS.
+This is designed to function with a Raspberry Pi 5 using Rasbian OS.
 I have tested it with a Raspberry pi B+ and it also works.
 
 For this to work please install nmap for raspbian:
@@ -16,9 +15,7 @@ and please disable monitor sleeping in the raspi-config:
 To switch the monitor on and off we use xrandr which is installed by default on Raspbian with the Desktop environment.
 
 The following module has three functions that can be used. They are defined in the settings.py file by adding a value to Timer_Type.
-Timer_Type can be a number between 1 to 3.
-
-The following Timer_Type values will do the following things:
+Timer_Type can be a number between 1 to 3:
 
 1. This will turn the monitor on and off by using the time (local time of computer). 
         You set the On_Time and Off_Time with the variables in settings.py.
@@ -78,5 +75,5 @@ To do this do the following:
 Now you can test the program with it setup:
         test the program runs and get some ouput by typing:
                 $python3 start.py
-                $You should see some ouput. if you configured the settings.py properly.
+                You should see some ouput. if you configured the settings.py properly.
         sudo reboot and the timer should start automatically.
